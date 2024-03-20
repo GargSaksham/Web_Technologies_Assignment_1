@@ -21,6 +21,42 @@
           ),
           url("Image/img_6.jpg");
       }
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .courses {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .courses li {
+        width: 30%;
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+      }
+
+      .courses li h2 {
+        margin-bottom: 10px;
+      }
+
+      .courses li p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
     </style>
   </head>
   <body>
@@ -38,9 +74,49 @@
           </ul>
         </nav>
       </div>
-      <main>
-        <h1 style="color: white">This Page is currently under Maintenance</h1>
-      </main>
+      <h1 style="color: white">Our Available Courses</h1>
+      <br /><br />
+      <section class="courses">
+        <ul>
+          <li>
+            <h2>Web Development for Beginners</h2>
+            <p>
+              Learn the basics of HTML, CSS, and JavaScript to build dynamic
+              websites.
+            </p>
+          </li>
+          <li>
+            <h2>Data Analysis with Python</h2>
+            <p>
+              Master the tools and techniques for cleaning, manipulating, and
+              visualizing data.
+            </p>
+          </li>
+          <li>
+            <h2>Digital Marketing Fundamentals</h2>
+            <p>
+              Explore strategies for promoting your business online and reaching
+              new audiences.
+            </p>
+          </li>
+          <li>
+            <h2>Public Relations</h2>
+            <p>
+              Understand the core concepts of PR, its role in communication, and
+              how to develop effective PR strategies.
+            </p>
+          </li>
+          <br />
+          <li>
+            <h2>Social Media Fundamentals</h2>
+            <p>
+              Learn how to develop a content strategy that aligns with your
+              goals and resonates with your target audience.
+            </p>
+            <br />
+          </li>
+        </ul>
+      </section>
     </header>
   </body>
 </html>
